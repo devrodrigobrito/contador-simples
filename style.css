@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #1e1e2f; 
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.counter-container {
+    background: #2b2b3c;
+    border-radius: 10px;
+    padding: 32px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    border: 1px solid #3a3a4f;
+}
+
+.counter-title {
+    color: #ffffff;
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 24px;
+    letter-spacing: 1px;
+}
+
+.counter-display {
+    background: #111;
+    color: #00ff88; 
+    font-size: 2.8rem;
+    font-weight: 700;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 24px;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter-controls {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 10px 22px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    min-width: 60px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    opacity: 0.85;
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+
+.btn-decrement {
+    background: #c0392b;
+}
+
+.btn-increment {
+    background: #27ae60;
+}
+
+.btn-reset {
+    background: #34495e;
+    width: 100%;
+    margin-top: 12px;
+}
+
+.counter-info {
+    background: #232334;
+    border-radius: 6px;
+    padding: 12px;
+    margin-top: 18px;
+    border-left: 4px solid #27ae60;
+    text-align: left;
+}
+
+.counter-info h3 {
+    font-size: 0.95rem;
+    margin-bottom: 6px;
+    color: #fff;
+}
+
+.counter-info p {
+    color: #ccc;
+    font-size: 0.85rem;
+    margin: 3px 0;
+}
+
+/* Responsivo */
+@media (max-width: 480px) {
+    .counter-container {
+        padding: 24px 16px;
+    }
+    
+    .counter-title {
+        font-size: 1.3rem;
+    }
+    
+    .counter-display {
+        font-size: 2.2rem;
+        padding: 16px;
+    }
+    
+    .btn {
+        min-width: 50px;
+        height: 40px;
+        font-size: 0.9rem;
+    }
+}
