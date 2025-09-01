@@ -5,7 +5,7 @@ Um contador interativo, funcional e responsivo, desenvolvido com HTML, CSS e Jav
 ---
 
 ### 📸 Demonstração
-![contador](assets/demostracao.gif)
+![contador](Assets/demostracao.gif)
 
 ---
 
