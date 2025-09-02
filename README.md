@@ -34,7 +34,9 @@ Um contador interativo, funcional e responsivo, desenvolvido com HTML, CSS e Jav
 
 ### 🚀 Como Usar
 
-Siga os passos abaixo para rodar o projeto localmente em sua máquina.
+Você pode acessar a versão online aqui:
+[Demonstração Online](https://devrodrigobrito.github.io/contador-simples/)  
+Ou, se preferir rodar localmente em sua máquina:    
 
 1.  **Clone o repositório:**
     ```bash
